@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /dolphin/server
+/dolphin/server/dolphindb -console 0 &
+ps -ef|grep dolphindb>>/dolphin/run.log
+sleep infinity
